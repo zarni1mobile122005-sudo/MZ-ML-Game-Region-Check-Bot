@@ -35,9 +35,9 @@ def get_region_by_server(server_id):
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(
-        "မင်္ဂလာပါ! Mobile Legends Region Check Bot မှ ကြိုဆိုပါတယ်။\n\n"
-        "Player ရဲ့ Region ကို စစ်ဆေးဖို့အတွက် User ID နဲ့ Server ID ကို အခုလို ပို့ပေးပါ -\n"
-        "ဥပမာ - `1114917746 13481`"
+        "မင်္ဂလာပါ!🌐 Mobile Legends Region🔎 Check Bot မှ ကြိုဆိုပါတယ်။\n\n"
+        "👤 Player ရဲ့ 🌐 Region ကို🔎 စစ်ဆေးဖို့အတွက် User🆔 ID နဲ့ Server ID ကို အခုလို ပို့ပေးပါ -\n"
+        "ဥပမာ - (game id) (sever id) "
     )
 
 async def check_region(update: Update, context: ContextTypes.DEFAULT_TYPE):
