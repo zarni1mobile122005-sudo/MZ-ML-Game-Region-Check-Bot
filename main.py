@@ -9,7 +9,7 @@ logging.basicConfig(
     level=logging.INFO
 )
 
-BOT_TOKEN = "8957495939:AAFfg-XqTvj7jCbDyPpweKfXBD4UcPew87U"
+BOT_TOKEN = "8957495939:AAHxxJYnG7_mI8g-7MFAmXN-YPphhpfJt30"
 
 # Server ID to Region Mapping (Estimated based on common patterns)
 def get_region_by_server(server_id):
